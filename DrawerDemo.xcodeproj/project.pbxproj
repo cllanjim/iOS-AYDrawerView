@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		044B79D21521A2E400A3C89F /* AYDrawerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 044B79D11521A2E400A3C89F /* AYDrawerView.m */; };
+		04D220BF15219F51008BF0A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D220BE15219F51008BF0A3 /* UIKit.framework */; };
+		04D220C115219F51008BF0A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D220C015219F51008BF0A3 /* Foundation.framework */; };
+		04D220C315219F51008BF0A3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D220C215219F51008BF0A3 /* CoreGraphics.framework */; };
+		04D220C915219F51008BF0A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04D220C715219F51008BF0A3 /* InfoPlist.strings */; };
+		04D220CB15219F51008BF0A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D220CA15219F51008BF0A3 /* main.m */; };
+		04D220CF15219F51008BF0A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D220CE15219F51008BF0A3 /* AppDelegate.m */; };
+		04D220D215219F51008BF0A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D220D115219F51008BF0A3 /* ViewController.m */; };
+		04D220D515219F51008BF0A3 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04D220D315219F51008BF0A3 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		044B79D01521A2E400A3C89F /* AYDrawerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AYDrawerView.h; sourceTree = "<group>"; };
+		044B79D11521A2E400A3C89F /* AYDrawerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AYDrawerView.m; sourceTree = "<group>"; };
+		04D220BA15219F51008BF0A3 /* DrawerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D220BE15219F51008BF0A3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		04D220C015219F51008BF0A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04D220C215219F51008BF0A3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		04D220C615219F51008BF0A3 /* DrawerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DrawerDemo-Info.plist"; sourceTree = "<group>"; };
+		04D220C815219F51008BF0A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04D220CA15219F51008BF0A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04D220CC15219F51008BF0A3 /* DrawerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DrawerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		04D220CD15219F51008BF0A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04D220CE15219F51008BF0A3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04D220D015219F51008BF0A3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04D220D115219F51008BF0A3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04D220D415219F51008BF0A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04D220B715219F51008BF0A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D220BF15219F51008BF0A3 /* UIKit.framework in Frameworks */,
+				04D220C115219F51008BF0A3 /* Foundation.framework in Frameworks */,
+				04D220C315219F51008BF0A3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04D220AF15219F51008BF0A3 = {
+			isa = PBXGroup;
+			children = (
+				04D220C415219F51008BF0A3 /* DrawerDemo */,
+				04D220BD15219F51008BF0A3 /* Frameworks */,
+				04D220BB15219F51008BF0A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04D220BB15219F51008BF0A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04D220BA15219F51008BF0A3 /* DrawerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04D220BD15219F51008BF0A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04D220BE15219F51008BF0A3 /* UIKit.framework */,
+				04D220C015219F51008BF0A3 /* Foundation.framework */,
+				04D220C215219F51008BF0A3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04D220C415219F51008BF0A3 /* DrawerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				04D220CD15219F51008BF0A3 /* AppDelegate.h */,
+				04D220CE15219F51008BF0A3 /* AppDelegate.m */,
+				04D220D015219F51008BF0A3 /* ViewController.h */,
+				04D220D115219F51008BF0A3 /* ViewController.m */,
+				04D220D315219F51008BF0A3 /* ViewController.xib */,
+				044B79D01521A2E400A3C89F /* AYDrawerView.h */,
+				044B79D11521A2E400A3C89F /* AYDrawerView.m */,
+				04D220C515219F51008BF0A3 /* Supporting Files */,
+			);
+			path = DrawerDemo;
+			sourceTree = "<group>";
+		};
+		04D220C515219F51008BF0A3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04D220C615219F51008BF0A3 /* DrawerDemo-Info.plist */,
+				04D220C715219F51008BF0A3 /* InfoPlist.strings */,
+				04D220CA15219F51008BF0A3 /* main.m */,
+				04D220CC15219F51008BF0A3 /* DrawerDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04D220B915219F51008BF0A3 /* DrawerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04D220D815219F51008BF0A3 /* Build configuration list for PBXNativeTarget "DrawerDemo" */;
+			buildPhases = (
+				04D220B615219F51008BF0A3 /* Sources */,
+				04D220B715219F51008BF0A3 /* Frameworks */,
+				04D220B815219F51008BF0A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawerDemo;
+			productName = DrawerDemo;
+			productReference = 04D220BA15219F51008BF0A3 /* DrawerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04D220B115219F51008BF0A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 04D220B415219F51008BF0A3 /* Build configuration list for PBXProject "DrawerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 04D220AF15219F51008BF0A3;
+			productRefGroup = 04D220BB15219F51008BF0A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04D220B915219F51008BF0A3 /* DrawerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04D220B815219F51008BF0A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D220C915219F51008BF0A3 /* InfoPlist.strings in Resources */,
+				04D220D515219F51008BF0A3 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04D220B615219F51008BF0A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D220CB15219F51008BF0A3 /* main.m in Sources */,
+				04D220CF15219F51008BF0A3 /* AppDelegate.m in Sources */,
+				04D220D215219F51008BF0A3 /* ViewController.m in Sources */,
+				044B79D21521A2E400A3C89F /* AYDrawerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04D220C715219F51008BF0A3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04D220C815219F51008BF0A3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		04D220D315219F51008BF0A3 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04D220D415219F51008BF0A3 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04D220D615219F51008BF0A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04D220D715219F51008BF0A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04D220D915219F51008BF0A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrawerDemo/DrawerDemo-Prefix.pch";
+				INFOPLIST_FILE = "DrawerDemo/DrawerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		04D220DA15219F51008BF0A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrawerDemo/DrawerDemo-Prefix.pch";
+				INFOPLIST_FILE = "DrawerDemo/DrawerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04D220B415219F51008BF0A3 /* Build configuration list for PBXProject "DrawerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D220D615219F51008BF0A3 /* Debug */,
+				04D220D715219F51008BF0A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04D220D815219F51008BF0A3 /* Build configuration list for PBXNativeTarget "DrawerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D220D915219F51008BF0A3 /* Debug */,
+				04D220DA15219F51008BF0A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04D220B115219F51008BF0A3 /* Project object */;
+}
